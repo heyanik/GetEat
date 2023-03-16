@@ -14,6 +14,8 @@ const Home = () => {
             <div className='quote'>
                 <p>GetEat is a family-owned restaurant that offers authentic cuisine. Our specialty is momos, a popular dumpling dish filled with a variety of meat, vegetables, and cheese. We are dedicated to providing our customers with a unique and enjoyable dining experience.</p>
                 <a href="/">View Menu</a>
+                <br />
+                <a href="/">Location</a>
             </div>
             <Navbar />
             <Footer />
