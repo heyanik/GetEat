@@ -51,8 +51,45 @@
 }
 
 /* Large screens */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 720px;
+@media screen and (max-width: 576px) {
+  .Container {
+    position: relative;
+  }
+  .geteat-logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #dcdf12;
+    border-style: dotted;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .geteat-banner {
+    max-width: 100%;
+    min-height: 350px;
+    position: absolute;
+    z-index: 0;
+    border-bottom: 1px solid #272727;
+  }
+  .quote > p {
+    position: absolute;
+    margin-top: 420px;
+    color: #272727;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .quote > a {
+    position: absolute;
+    margin-top: 800px;
+    color: #272727;
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
   }
 }
