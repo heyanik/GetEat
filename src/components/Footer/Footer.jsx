@@ -1,16 +1,17 @@
 import React from 'react'
 import '../Footer/Footer.css'
 import { Link } from "react-router-dom";
+import tiktok from '@fortawesome/free-solid-svg-icons'
 function Footer() {
     return (
         <>
             <div className='footer'>
                 <div className='info'>
-                    <p>018-6728-6587</p>
+                    <a href='tel:01867286587'>018-6728-6587</a>
                     <p>geteat@gmail.com</p>
                     <br />
-                    <p>29/16-B Tajmahal Rd, Mohammadpur</p>
-                    <p>Dhaka, Dhaka 1207</p>
+
+                    <p>Dhaka, Dhaka 1207</p><a href='https://maps.app.goo.gl/HLwe1HE2tpGqG5QD8' target="_blank">29/16-B Tajmahal Rd, Mohammadpur</a>
                 </div>
                 <div className="links">
                     <ul>
@@ -19,6 +20,12 @@ function Footer() {
                         <li><Link to="/info" > <a>Info</a> </Link></li>
                         <li><Link to="/ordernow" > <a>Order now</a> </Link></li>
                     </ul>
+                    <div className="social-links">
+                        <h1>Find us</h1>
+                        <a href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    </div>
                 </div>
             </div>
         </>
