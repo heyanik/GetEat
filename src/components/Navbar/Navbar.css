@@ -28,7 +28,7 @@
   text-decoration: none;
   display: grid;
   list-style-type: none;
-  padding-top: 5px;
+  padding-top: 2.8px;
   text-align: center;
   color: #272727;
 }
@@ -64,7 +64,7 @@
     text-decoration: none;
     display: grid;
     list-style-type: none;
-    padding-top: 5.5px;
+    padding-top: 3.5px;
     text-align: center;
     color: #272727;
   }
