@@ -16,8 +16,8 @@ function Footer() {
                         <li><Link to="/" > <a>Home</a> </Link></li>
                         <li><Link to="/menu" > <a>Menu</a> </Link></li>
                         <li><Link to="/info" > <a>Info</a> </Link></li>
-                        <li><Link to="/terms" > <a>Terms & Conditions</a> </Link></li>
-                        <li> <a href='https://foodpanda.page.link/3stqQRTXed4wgpZe7' target="_blank">Order now</a></li>
+                        <li><Link to="/terms" > <a>T&C</a> </Link></li>
+                        {/* <li> <a href='https://foodpanda.page.link/3stqQRTXed4wgpZe7' target="_blank">Order now</a></li> */}
                     </ul>
                     <div className="social-links">
                         <h1>Find us</h1>

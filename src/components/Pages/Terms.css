@@ -1,6 +1,5 @@
 .terms-container {
   background-color: #f19633;
-  height: 1000px;
 }
 .terms-container > h1 {
   margin: auto;
@@ -38,16 +37,18 @@
 @media screen and (max-width: 576px) {
   .terms-container {
     background-color: #f19633;
-    height: 700px;
+    height: 1000px;
   }
   .terms-container > h1 {
     font-size: 15px;
+    margin-top: 10px;
     margin: auto;
-    width: 50%;
+    width: 45%;
   }
   .images {
     margin: auto;
-    width: 70%;
+    width: 62%;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
   }
@@ -66,8 +67,9 @@
     margin: auto;
     width: 80px;
     height: 40px;
+    margin-top: 100px;
     margin-bottom: 15px;
-    margin-left: 120px;
+    margin-left: 140px;
     font-size: 15px;
     font-weight: 800;
     border-radius: 10px;
