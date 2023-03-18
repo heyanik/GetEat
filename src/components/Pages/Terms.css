@@ -37,7 +37,7 @@
 @media screen and (max-width: 576px) {
   .terms-container {
     background-color: #f19633;
-    /* height: 1000px; */
+    height: 900px;
   }
   .terms-container > h1 {
     font-size: 15px;
