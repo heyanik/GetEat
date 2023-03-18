@@ -32,6 +32,9 @@
   text-align: center;
   color: #272727;
 }
+.navbar .ab {
+  padding-top: 6.5px;
+}
 .navbar a:hover {
   color: #fff;
 }

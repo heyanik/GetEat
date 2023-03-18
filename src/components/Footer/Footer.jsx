@@ -21,8 +21,8 @@ function Footer() {
                     </ul>
                     <div className="social-links">
                         <h1>Find us</h1>
-                        <a href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://www.facebook.com/geteatbd"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a href="https://www.instagram.com/geteatbd/"><i class="fa-brands fa-instagram fa-lg"></i></a>
                         <a href=""><i class="fa-brands fa-tiktok fa-lg"></i></a>
                     </div>
                 </div>
