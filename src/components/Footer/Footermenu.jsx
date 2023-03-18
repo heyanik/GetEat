@@ -9,15 +9,14 @@ function Footer() {
                     <a href='tel:01867286587'>018-6728-6587</a>
                     <p>geteat@gmail.com</p>
                     <br />
-                    <a href='https://maps.app.goo.gl/HLwe1HE2tpGqG5QD8' target="_blank">29/16-B Tajmahal Rd, Mohammadpur</a>
-                    <p>Dhaka, Dhaka 1207</p>
+                    <a href='https://maps.app.goo.gl/HLwe1HE2tpGqG5QD8' target="_blank">Dhaka, Dhaka 1207 <br />29/16-B Tajmahal Rd, Mohammadpur</a>
                 </div>
                 <div className="links">
                     <ul>
                         <li><Link to="/" > <a>Home</a> </Link></li>
                         <li><Link to="/menu" > <a>Menu</a> </Link></li>
                         <li><Link to="/info" > <a>Info</a> </Link></li>
-                        <li><Link to="/ordernow" > <a>Order now</a> </Link></li>
+                        <li> <a href='https://foodpanda.page.link/3stqQRTXed4wgpZe7' target="_blank">Order now</a></li>
                     </ul>
                     <div className="social-links">
                         <h1>Find us</h1>

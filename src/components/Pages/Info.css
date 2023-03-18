@@ -1,0 +1,83 @@
+.info-container {
+  background-color: #f19633;
+}
+
+.info-title {
+  padding-top: 50px;
+  padding-left: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-title > p {
+  padding-top: 150px;
+  font-size: 40px;
+}
+.info-title > a {
+  color: #272727;
+  text-decoration: underline;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.info-title > a:hover {
+  color: #fff;
+}
+.info-banner > img {
+  padding-left: 5px;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 576px), (max-width: 600px) {
+  .info-container {
+    background-color: #f19633;
+  }
+  .Container {
+    position: relative;
+  }
+  .geteat-logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #dcdf12;
+    border-style: dotted;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .info-title {
+    padding-top: 50px;
+    padding-left: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-title > p {
+    padding-top: 150px;
+    font-size: 15px;
+  }
+  .info-title > a {
+    color: #272727;
+    text-decoration: underline;
+    font-size: 10px;
+    padding-bottom: 20px;
+  }
+  .info-title > a:hover {
+    color: #fff;
+  }
+  .info-banner > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+  }
+}
