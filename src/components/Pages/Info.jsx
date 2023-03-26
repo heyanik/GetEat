@@ -21,6 +21,63 @@ function Info() {
                     <a href="mailto:geteat@gmail.com">MAIL:GETEAT@GMAIL.COM</a>
 
                 </div>
+                <div className='info-title'>
+                    <h1>Food items</h1>
+                </div>
+                <div className="food-details">
+                    <div className="food-container">
+                        <p>Regular chicken momo</p>
+                        <img src="/food-pic/Regular Chicken momo.jpeg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Chicken fried momo</p>
+                        <img src="/food-pic/Fried-chicken-momo.jpeg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Mozzarella cheese momo</p>
+                        <img src="/food-pic/Mozzarella cheese momo_.jpg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Chicken naga momo</p>
+                        <img src="/food-pic/naga momo.jpeg" alt="" />
+                    </div>
+                </div>
+                <div className="food-details">
+                    <div className="food-container">
+                        <p>Fried mozzarella momo</p>
+                        <img src="/food-pic/Fried mozzarella momo.jpg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Fried jhal momo</p>
+                        <img src="/food-pic/Fried Jhal momo.jpg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Fried desi paneer momo</p>
+                        <img src="/food-pic/Fried desi paneer momo.jpg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Fried desi paneer momo</p>
+                        <img src="/food-pic/Fried cheddar cheese momo.jpg" alt="" />
+                    </div>
+                </div>
+                <div className="food-details">
+                    <div className="food-container">
+                        <p>Desi paneer momo</p>
+                        <img src="/food-pic/Desi paneer momo.jpeg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Chef's special momo</p>
+                        <img src="/food-pic/Chef’s special momo.jpg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Cheddar cheese momo</p>
+                        <img src="/food-pic/Cheddar cheese momo.jpg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>GetEat special momo</p>
+                        <img src="/food-pic/Geteat special cheese momo.jpg" alt="" />
+                    </div>
+                </div>
             </div>
             <Navbar />
             <Footermenu />
