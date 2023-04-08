@@ -78,6 +78,27 @@ function Info() {
                         <img src="/food-pic/Geteat special cheese momo.jpg" alt="" />
                     </div>
                 </div>
+                <div className='info-title'>
+                    <h1>Drinks items</h1>
+                </div>
+                <div className="food-details">
+                    <div className="food-container">
+                        <p>Lemonade</p>
+                        <img src="/food-pic/lemonade.jpeg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Mint Lemonade</p>
+                        <img src="/food-pic/mint-lemonade.jpeg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Watermelon Juice</p>
+                        <img src="/food-pic/watermelon.jpeg" alt="" />
+                    </div>
+                    <div className="food-container">
+                        <p>Lime Juice</p>
+                        <img src="/food-pic/lime-juice.jpeg" alt="" />
+                    </div>
+                </div>
             </div>
             <Navbar />
             <Footermenu />

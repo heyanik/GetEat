@@ -15,6 +15,7 @@ function Menu() {
                 </div>
                 <div className='menu-list'>
                     <div className="names">
+                        <div className='catagory'>Momos</div>
                         <div>Steamed Section
                         </div>
                         <div className="line"></div>
@@ -50,10 +51,19 @@ function Menu() {
                         <div>GetEat Special</div>
                         <div className="line"></div>
                         <li>GetEat Special Cheese Momo</li>
+                        <div className='drinks-catagory'>Drinks</div>
+                        <br />
+                        <div>Fruits Drinks</div>
+                        <div className="line"></div>
+                        <li>Lamonade</li>
+                        <li>Mint Lamonade</li>
+                        <li>Watermelon juice</li>
+                        <li>Lime juice</li>
                     </div>
                     <div className="photos">
                         <img src="mpic2.jpeg" alt="photo" />
                         <img src="mpic1.jpg" alt="photo" />
+                        <img src="./food-pic/watermelon.jpeg" alt="photo" />
                     </div>
                 </div>
             </div>
