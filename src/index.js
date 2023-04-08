@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Info from "./components/Pages/Info";
 import Menu from "./components/Pages/Menu";
 import Terms from "./components/Pages/Terms";
+import OrderNow from "./components/Pages/OrderNow";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Route path="/info" element={<Info />} />
       <Route path="/menu" element={<Menu />} />
       <Route path="/terms" element={<Terms />} />
+      <Route path="/ordernow" element={<OrderNow />} />
     </Routes>
 
     {/* <App /> */}
