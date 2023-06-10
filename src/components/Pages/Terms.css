@@ -1,5 +1,7 @@
 .terms-container {
   background-color: #f19633;
+  width: 100vw;
+  height: 100vh;
 }
 .terms-container > h1 {
   margin: auto;
